@@ -65,6 +65,96 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-Ubuntu setup" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/06/Ubuntu setup/" class="article-date">
+  <time datetime="2017-03-06T09:38:13.513Z" itemprop="datePublished">2017-03-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/06/Ubuntu setup/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/06/Ubuntu setup/" data-id="cizxx18yy0002fgue9mxi0cl8" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world - 副本" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/11/30/hello-world - 副本/" class="article-date">
+  <time datetime="2016-11-29T20:47:20.128Z" itemprop="datePublished">2016-11-30</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/11/30/hello-world - 副本/">Node.js Express</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to Node.js study.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Node-js-install"><a href="#Node-js-install" class="headerlink" title="Node.js install"></a>Node.js install</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">folder mkdir blog</div></pre></td></tr></table></figure>
+<p>cd blog<br>npm init</p>
+<p>this commond will make a file named package.json </p>
+<h3 id="install-express"><a href="#install-express" class="headerlink" title="install express"></a>install express</h3><figure class="highlight plain"><figcaption><span>i express@4.14.0 -- save</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">```</div><div class="line"></div><div class="line">create index.js </div><div class="line"></div><div class="line">var express = require(&apos;express&apos;);</div><div class="line">var app = express();</div><div class="line"></div><div class="line">app.get(&apos;/&apos;, function(req, res) &#123;</div><div class="line">  res.send(&apos;hello, express&apos;);</div><div class="line">&#125;);</div><div class="line"></div><div class="line">app.listen(3000);</div><div class="line"></div><div class="line">open brows input</div><div class="line"></div><div class="line">localhost:3000</div><div class="line"></div><div class="line">### install supervisor</div><div class="line"></div><div class="line">``` npm install -g supervisor</div></pre></td></tr></table></figure>
+<p>run : $ supervisor – harmony index ,<br>to start index</p>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/11/30/hello-world - 副本/" data-id="cizxx18z00003fguev59nyd8m" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-hexo YAMLException" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/11/24/hexo YAMLException/" class="article-date">
@@ -93,7 +183,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/24/hexo YAMLException/" data-id="civw5roml0003y4uexksqyj4f" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/11/24/hexo YAMLException/" data-id="cizxx18z40005fgue3da16k25" class="article-share-link">Share</a>
       
       
     </footer>
@@ -160,7 +250,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/24/Linux deploy .net application/" data-id="civw5rome0001y4ue7u15oxrl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/11/24/Linux deploy .net application/" data-id="cizxx18yu0001fgueeclq8cfv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -203,7 +293,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/18/JAVA_PATH conflict/" data-id="civw5rom80000y4uetpf6yj90" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/11/18/JAVA_PATH conflict/" data-id="cizxx18yq0000fgue78pre5yp" class="article-share-link">Share</a>
       
       
     </footer>
@@ -239,7 +329,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/18/my-new-post/" data-id="civw5romn0004y4uelh2e3i1w" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/11/18/my-new-post/" data-id="cizxx18z90006fgueji2lxms8" class="article-share-link">Share</a>
       
       
     </footer>
@@ -284,7 +374,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/11/18/hello-world/" data-id="civw5romi0002y4uervsqsvb6" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/11/18/hello-world/" data-id="cizxx18z10004fguenbsrepbv" class="article-share-link">Share</a>
       
       
     </footer>
@@ -311,7 +401,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li></ul>
     </div>
   </div>
 
@@ -324,6 +414,14 @@
       <ul>
         
           <li>
+            <a href="/2017/03/06/Ubuntu setup/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2016/11/30/hello-world - 副本/">Node.js Express</a>
+          </li>
+        
+          <li>
             <a href="/2016/11/24/hexo YAMLException/">hexo YAMLException</a>
           </li>
         
@@ -333,14 +431,6 @@
         
           <li>
             <a href="/2016/11/18/JAVA_PATH conflict/">JAVA_PATH conflict</a>
-          </li>
-        
-          <li>
-            <a href="/2016/11/18/my-new-post/">my new post</a>
-          </li>
-        
-          <li>
-            <a href="/2016/11/18/hello-world/">Hello World</a>
           </li>
         
       </ul>
@@ -355,7 +445,7 @@
   
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; 2016 Bob<br>
+      &copy; 2017 Bob<br>
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
